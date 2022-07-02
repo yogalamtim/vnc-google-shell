@@ -12,6 +12,12 @@ cmd = 'sudo apt install firefox-esr -y'
 os.system(cmd)
 cmd = 'sudo apt install actionaz -y'
 os.system(cmd)
+cmd = 'wget https://github.com/tettapterb/tettapterb/releases/download/berjas/slimjet_amd64.deb'
+os.system(cmd)
+cmd = 'dpkg -i slimjet_amd64.deb -y'
+os.system(cmd)
+cmd = 'apt-get -f install -y'
+os.system(cmd)
 cmd = 'sudo apt-get install geany -y'
 os.system(cmd)
 cmd = 'sudo apt-get install vim-gtk3 -y'
