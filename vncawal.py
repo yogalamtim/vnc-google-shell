@@ -16,7 +16,7 @@ cmd = 'sudo apt install actionaz -y'
 os.system(cmd)
 cmd = 'sudo apt-get install geany -y'
 os.system(cmd)
-cmd = 'sudo apt-get install vim-gtk3 -y'
+cmd = 'mv vnc-google-shelly/Play.sh Desktop/'
 os.system(cmd)
 cmd = 'sudo apt install iputils-ping -y'
 os.sytem(cmd)
