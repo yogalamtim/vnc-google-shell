@@ -10,9 +10,11 @@ cmd = 'sudo apt install --assume-yes xfce4 desktop-base dbus-x11'
 os.system(cmd)
 cmd = 'sudo apt install xfce4-terminal -y'
 os.system(cmd)
-cmd = 'sudo apt install firefox-esr -y'
+cmd = 'sudo add-apt-repository ppa:mozillateam/ppa -y'
 os.system(cmd)
-cmd = 'sudo apt install actionaz -y'
+cmd = 'sudo apt update && sudo apt install firefox-esr -y'
+os.system(cmd)
+cmd = 'sudo apt install actiona -y'
 os.system(cmd)
 cmd = 'sudo apt-get install geany -y'
 os.system(cmd)
